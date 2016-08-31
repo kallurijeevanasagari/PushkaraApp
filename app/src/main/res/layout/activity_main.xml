@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+
+    tools:context="com.example.hp.pushkaraapp.MainActivity">
+    <TextView
+        android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Krishna Pushkaralu 2016"
+    android:textStyle="bold"
+    android:fontFamily="sans-serif-smallcaps"
+    android:textSize="20dp"
+    android:textColor="#f9870d"
+    android:gravity="center"
+        android:layout_marginTop="16dp"
+    />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/logo1"
+        android:layout_marginTop="40dp"
+
+        />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department:"
+        android:textStyle="bold"
+        android:textColor="#0b0b0b"
+        android:textSize="20dp"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"/>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:drawSelectorOnTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/text1"
+        />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login:"
+        android:textStyle="bold"
+        android:textColor="#0b0b0b"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="280dp"/>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:hint="Enter Login "
+        android:textColor="#0b0b0b"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="#0b0b0b"
+        android:textSize="20dp"
+        android:layout_marginTop="330dp"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="120dp"
+        android:textSize="20dp"
+        android:textColor="#0b0b0b"
+        android:fontFamily="cursive"
+        android:hint="Enter Password"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:layout_marginTop="400dp"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="20dp"
+        android:layout_marginTop="470dp"/>
+
+</RelativeLayout>

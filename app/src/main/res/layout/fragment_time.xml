@@ -1,0 +1,102 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.pushkaraapp.TimeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Department:"
+        android:layout_margin="1mm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+
+        />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghart Name:"
+            android:layout_margin="1mm"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"
+            android:layout_margin="1mm"
+            android:entries="@array/ghatnames"
+            android:prompt="@string/country_prompt"
+            android:drawSelectorOnTop="true"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Slot:"
+        android:layout_margin="1mm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner3"
+        android:layout_margin="1mm"
+        android:entries="@array/ghatnames"
+        android:prompt="@string/country_prompt"
+        android:drawSelectorOnTop="true"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Of Pilgrims:"
+        android:layout_margin="1mm"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edit6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1mm"
+        android:hint="Number of People"
+        />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_margin="1mm"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_margin="1mm"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:textSize="20dp"
+        />
+    </android.support.v7.widget.LinearLayoutCompat>
+</FrameLayout>

@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Pushkara App</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="country_prompt">Choose a country</string>
+    <string-array name="ghatnames">
+        <item>"Amaravathi"</item>
+
+        <item>"Dharanikota"</item>
+        <item>"Sithanagaram-1"</item>
+        <item>"Sithanagaram-2"</item>
+        <item>"Vijayapuri South"</item>
+        <item>"Anupu"</item>
+        <item>"Satrasala-1"</item>
+        <item>"Satrasala-2"</item>
+        <item>"Tallayapalem-1"</item>
+        <item>"Tallayapalem-2"</item>
+        <item>"Penumudi-1"</item>
+        <item>"Penumudi-2"</item>
+        <item>"Daida-1"</item>
+        <item>"Daida-2"</item>
+        <item>"Pondugala"</item>
+        <item>"Vykuntapuram"</item>
+        <item>"Nandularevu H/o Madipadu"</item>
+        <item>"Madipadu"</item>
+        <item>"Rayapudi-1"</item>
+        <item>"Rayapudi-2"</item>
+        <item>"Harichandrapura m-1"</item>
+        <item>"Harichandrapuram-2"</item>
+        <item>"Pedakonduru"</item>
+        <item>"Chilumuru"</item>
+        <item>"Gajulalanka"</item>
+        <item>"Gottimukkala"</item>
+        <item>"Bhatrupalem-1"</item>
+        <item>"Bhatrupalem-2"</item>
+        <item>"Tangeda-1"</item>
+        <item>"Tangeda-2"</item>
+        <item>"Ramapuram"</item>
+        <item>"Regulagadda"</item>
+        <item>"Vellampalli"</item>
+        <item>"Katrapadu"</item>
+        <item>"Govindapuram"</item>
+        <item>"Ginjupalli"</item>
+        <item>"Taduvai"</item>
+        <item>"Chinthapalli"</item>
+        <item>"Chammarru"</item>
+        <item>"Kogantivaripalem"</item>
+        <item>"Konuru"</item>
+        <item>"Kasthala"</item>
+        <item>"Borupalem"</item>
+        <item>"Venkatayapalem"</item>
+        <item>"Chirravuru"</item>
+        <item>"Gundimenda"</item>
+        <item>"Prathuru"</item>
+        <item>"Ramachandrapuram"</item>
+        <item>"Veerlapalem"</item>
+        <item>"Godavarru"</item>
+        <item>"Athalurivaripalem"</item>
+        <item>"Vallabhapuram-1"</item>
+        <item>"Vallabhapuram-2"</item>
+        <item>"Munnangi"</item>
+        <item>"Pidaparthipalem"</item>
+        <item>"Kollipara-1"</item>
+        <item>"Kollipara-2"</item>
+        <item>"Kotha Bommuvanipalem-1"</item>
+        <item>"Kotha Bommuvanipalem-2"</item>
+        <item>"Bommuvanipalem-1"</item>
+        <item>"Bommuvanipalem-2"</item>
+        <item>"Annavarapu Lanka"</item>
+        <item>"Epuru"</item>
+        <item>"Suggunalanka"</item>
+        <item>"Chintalalanka"</item>
+        <item>"Pedalanka"</item>
+        <item>"Aravinda Varadhi"</item>
+        <item>"Juvvalapalem"</item>
+        <item>"Potharlanka"</item>
+        <item>"Thippala Katta"</item>
+        <item>"Pedalanka <item>Kakula Donka</item>"</item>
+        <item>"Oleru"</item>
+        <item>"Ravi Ananthavaram"</item>
+        <item>"Mynenivaripalem"</item>
+        <item>"Chennupallivaripalem"</item>
+        <item>"Gangadipalem"</item>
+        <item>"Rajukalava"</item>
+        <item>"Moorthota"</item>
+        <item>"VIP Ghat C"</item>
+        <item>"Pushkar Nagar, Penumudi"</item>
+
+    </string-array>
+</resources>
